@@ -1,0 +1,109 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "fvV8UgSBjqNyEHLCzEKNLv",
+      "projectApiToken": "WCgxzjJ2E645qjtKX2SaCsnYlB0CEUPWv15POznFAFHb8NH0iaFbFjSsoJ4bR5xEE3SrkuijhHFrsxjTaA",
+      "projectName": "plasmicwalletconnect",
+      "version": "latest",
+      "cssFilePath": "plasmic/plasmicwalletconnect/plasmic.module.css",
+      "components": [
+        {
+          "id": "TUdK2gFUqAIo",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "fvV8UgSBjqNyEHLCzEKNLv",
+          "renderModuleFilePath": "plasmic/plasmicwalletconnect/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/plasmicwalletconnect/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "ZUyOVEyPxOrR",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "fvV8UgSBjqNyEHLCzEKNLv",
+          "renderModuleFilePath": "plasmic/plasmicwalletconnect/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/plasmicwalletconnect/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "BST4nyNDjOHF",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/plasmicwalletconnect/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "YAk_Vp0y49LL",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/plasmicwalletconnect/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "8J9_VOnSqRa3",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "bDOiP4SOdiqX",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "sIRfrhKnqLHg",
+        "name": "Screen",
+        "projectId": "fvV8UgSBjqNyEHLCzEKNLv",
+        "contextFilePath": "plasmic/plasmicwalletconnect/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
+}
